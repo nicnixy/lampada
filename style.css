@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header {
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 5%;
+}
+
+span {
+    color: rgb(250, 244, 132);
+}
+
+#icone-lampada {
+    margin-left: 50%;
+    margin-top: 20px;
+}
+
+#frase {
+    margin-right: 12%;
+}
+
+section {
+    background-color: #365D86;
+    padding: 10px;
+    border-radius: 15px;
+    width: 50%;
+    margin: auto;
+    margin-top: 4%;
+}
+
+.button {
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+    border: none;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+}
